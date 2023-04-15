@@ -1,0 +1,33 @@
+.nav-container {
+  width: 100%;
+  height: 10%;
+  padding: 0.5rem 1rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-cotainer input,
+button {
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.search-cotainer button {
+  cursor: pointer;
+  border: 1px solid green;
+  transition: all 0.5s ease-out;
+}
+
+.search-cotainer input:focus {
+  border: 2px solid black;
+}
+.search-cotainer button:hover {
+  background-color: black;
+  color: white;
+}
