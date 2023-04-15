@@ -11,7 +11,7 @@ const Home = () => {
         setData(data);
       });
   }, []);
-  console.log(data, data.length);
+
   return (
     <div className="home-container">
       {data.length > 0 ? (
